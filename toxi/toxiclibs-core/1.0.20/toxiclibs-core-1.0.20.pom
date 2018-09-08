@@ -7,11 +7,11 @@
 		<artifactId>common-pom</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<groupId>net</groupId>
-	<artifactId>jgeom-core</artifactId>
-	<version>1.0.0</version>
-	<name>jgeom-core</name>
-	<description>net.jgeom clone</description>
+	<groupId>toxi</groupId>
+	<artifactId>toxiclibs-core</artifactId>
+	<version>1.0.20</version>
+	<name>toxiclibs-core</name>
+	<description>toxi clibs-core 20</description>
 
 	<build>
 		<plugins>
@@ -26,11 +26,11 @@
 							<goal>deploy-file</goal>
 						</goals>
 						<configuration>
-							<file>${project.basedir}/obj/main/jar/jgeom-core.jar</file>
+							<file>${project.basedir}/obj/main/jar/toxiclibscore.jar</file>
 							<url>file://${project.parent.basedir}/mvn-repo</url>
-							<groupId>net.jgeom</groupId>
-							<artifactId>jgeom-core</artifactId>
-							<version>1.0.0</version>
+							<groupId>toxi.clibs-core</groupId>
+							<artifactId>clibs-core</artifactId>
+							<version>1.0.20</version>
 							<packaging>jar</packaging>
 						</configuration>
 					</execution>
@@ -38,5 +38,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
